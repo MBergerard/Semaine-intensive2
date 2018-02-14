@@ -1,0 +1,37 @@
+html{
+  font-size: 62.5%;
+}
+
+
+/****
+    header
+         ****/
+
+.social img{
+  width: 40px;
+  height: 40px;
+  margin: 30px 5px;
+}
+
+.logo {
+  text-align: center;
+}
+.logo img {
+  width: 300px;
+}
+
+.connexion , .monPanier {
+  font-size: 1.3rem;
+}
+
+.connexion img, .monPanier img {
+  width: 30px;
+  height: 30px;
+  margin-top: 30px;
+  margin-right: 40px;
+
+}
+
+.connexion a, .monPanier a{
+
+}
