@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<style>
-.carousel-page
-{
-width:100%;
-height:400px;
-background-color:#5f666d;
-color:white;
-}
-</style>
-=======
 body {
   margin:0;
 }
@@ -41,7 +30,6 @@ html {
 .border{
   border: 1px solid black;
 }
-<<<<<<< HEAD
 
 .slider{
   margin-top: 30px;
@@ -76,12 +64,60 @@ html {
 
 
 .madeInFrance img {
-  width: 250px;
-  height: 250px;
-  margin:10px 50px;
-
+  width: 220px;
+  height: 220px;
+  margin:10px 60px;
+}
+.madeInFrance{
+  font-size: 2.0rem;
+  text-align: center;
 
 }
-=======
->>>>>>> 33a6a7e3c802b75160619e85cfeff329b9aa25b4
->>>>>>> e595bc073f73b80f37d2dac1097902ca522c992a
+
+.produits div img{
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  border: 2px black solid;
+  margin: 10px 170px;
+  z-index: 1;
+  position: relative;
+}
+
+.underProductLabel {
+  font-size: 1.8rem;
+  border: 2px black solid;
+  border-radius: 10px;
+  width: 250px;
+  margin:  10px auto;
+  padding: 3px 10px;
+  text-align: center;
+  bottom: 40px;
+  z-index: 0;
+  position: relative;
+}
+
+#flecheBas img{
+  width: 50px;
+}
+#flecheBas {
+  text-align: center;
+}
+
+.polleni{
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  font-size: 1.8rem;
+
+}
+.polleni img {
+  width : 150px;
+  border-radius: 75px;
+}
+
+.polleni a {
+  margin-bottom: 10px;
+}
