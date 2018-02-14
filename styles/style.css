@@ -20,6 +20,7 @@ html{
 .logo img {
   width: 300px;
 }
+<<<<<<< HEAD
 .recherche button{
   margin-top: 10px;
   margin-right: 20px;
@@ -33,4 +34,25 @@ html{
 .recherche input{
   border-radius: 10px;
   margin-top: 10px;
+=======
+
+.connexion , .monPanier {
+  font-size: 1.3rem;
+  text-align: center;
+
+}
+
+.connexion img, .monPanier img {
+  width: 30px;
+  height: 30px;
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-left: 20px
+
+}
+
+.connexion p, .monPanier p{
+  margin-top: 5px;
+
+>>>>>>> c15523d25be7e84c88e257c4f40bebcbf832fa7c
 }
