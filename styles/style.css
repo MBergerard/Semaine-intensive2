@@ -22,16 +22,20 @@ html{
 
 .connexion , .monPanier {
   font-size: 1.3rem;
+  text-align: center;
+
 }
 
 .connexion img, .monPanier img {
   width: 30px;
   height: 30px;
   margin-top: 30px;
-  margin-right: 40px;
+  margin-right: 20px;
+  margin-left: 20px
 
 }
 
-.connexion a, .monPanier a{
+.connexion p, .monPanier p{
+  margin-top: 5px;
 
 }
