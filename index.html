@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Douce de Po - Accessoires créateurs pour bébé</title>
     <meta name="description" content="Créations textiles d'accessoires pour Bébé, Enfant et Femme">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/bootstrap-grid.css">
     <link rel="stylesheet" href="styles/style.css">
     <title></title>
@@ -11,36 +12,25 @@
   <body>
     <div class="container-fluid">
       <header>
-        <div class="row">
-          <div class="social col-lg-2 offset-lg-1 row">
+        <div class="row justify-content-between">
+          <div class="social">
             <a href="#"><img src="images/twitterLogo.png" alt=""></a>
             <a href="#"><img src="images/facebookLogo.png" alt=""></a>
             <a href="#"><img src="images/pinterestLogo.png" alt=""></a>
             <a href="#"><img src="images/googlePlusLogo.png" alt=""></a>
           </div>
-          <div class="logo col-lg-6 ">
+          <div class="logo">
             <img src="images/logo.png" alt="Logo de Douce de Po">
           </div>
-          <div class="col-lg-3 row">
-            <div class="connexion">
-              <a href="#"><img src="images/connexionLogo.png" alt="Logo pour se conecter au site."></a>
-              <p>Connexion</p>
-            </div>
-            <div class="monPanier">
-              <a href="#"><img src="images/panier.png" alt="Logo pour acceder au panier."></a> 
-              <p>Mon Panier</p>
-            </div>
-            <div class="recherche">
-              <form action="index.html" method="post">
-                <input type="search" placeholder="Rechercher" name="the_search">
-              </form>
-
-            </div>
-
-
+          <div class="recherche row">
+            <div class="input-group-prepend">
+               <button class="btn btn-outline-secondary" type="button">Connexion</button>
+             </div>
+            <a href="#"><img src="images/panier.png" alt=""></a>
+            <form action="index.html" method="post">
+              <input type="search" class="form-control" placeholder="Rechercher" name="the_search">
+            </form>
           </div>
-
-
         </div>
       </header>
     </div>
