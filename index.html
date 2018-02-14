@@ -6,24 +6,24 @@
     <meta name="description" content="Créations textiles d'accessoires pour Bébé, Enfant et Femme">
     <link rel="stylesheet" href="styles/bootstrap-grid.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
     <title></title>
   </head>
   <body>
     <div class="container-fluid">
       <header class="borderBottom">
-        <div class="row ">
-          <div class="col-lg-3 col-md-4  col-sd-5">
-            <img src="images/search.png" alt="Logo Recherche" class="logoHeader">
-            <input type="search" placeholder="" name="search">
-            <a href="#">FR</a>
-            <a href="#">EN</a>
-          </div>
-          <div class="col-lg-1 offset-lg-8 col-md-2 offset-md-6 col-sd-3 offset-sd-4">
-            <img src="images/MonCompte.png" alt="Image Mon Compte" class="logoHeader">
-            <img src="images/panier.png" alt="Panier" class="logoHeader">
-          </div>
+        <div id="firstNav"class="row justify-content-between">
+          <nav class="leftSide">
+            <a href="#"><b>FR</b></a><span>|</span><a href="#">EN</a>
+          </nav>
+          <nav class="rightSide">
+            <a href="#"><img class="navIcon"src="images/MonCompte.png" alt="Mon compte"></a>
+            <a href="#"><img class="navIcon"src="images/panier.png" alt="panier"></a>
+            <a href="#"><img class="navIcon"src="images/search.png" alt="loupe"></a>
+            <input type="text" name="form-control" id="text">
+          </nav>
         </div>
-
         <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-sd-8 offset-sd-2 center ">
           <img src="images/logo.png" alt="Logo du site">
         </div>
@@ -31,8 +31,10 @@
           <img src="images/miniLogo.png" alt="Mini Logo" class="miniLogo relative border">
         </div>
       </header>
-      <div class="col-lg-12 col-md-12 col-sd-12 slider">
-        <img src="images/imgSliderTest.jpg" alt="">
+      <div class="your-class">
+        <div><img src="images/bebe3.jpg" alt="image de bébé"></div>
+        <div><img src="images/bebe3.jpg" alt="image de bébé"></div>
+        <div><img src="images/bebe3.jpg" alt="image de bébé"></div>
       </div>
       <div class="col-lg-8 offset-lg-2 ">
         <div class="presentationDoucePo">
@@ -119,9 +121,7 @@
       </footer>
 
     </div>
-
-
-
   <script src="js/bootstrap.js"></script>
+
   </body>
 </html>
