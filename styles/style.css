@@ -90,19 +90,43 @@ html{
 .pinkSquare{
   width: 300px;
   height: 369.75px;
-  border: 1px solid pink;
+  border: 2px solid pink;
   position: absolute;
   margin-top: 20px;
+}
+.bebeAlien{
+  position: relative;
+  right: 40px;
+  top: 60px;
 }
 .bebeAlien img {
   width: 400px;
   height: 180px;
 }
-@media all and (max-width: 1024px){
-  .photoCreatrice{
-      border:0;
+.greySquare{
+  width: 400px;
+  height: 180px;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  position: absolute;
+  margin-top: 20px;
+}
+@media all and (max-width: 1200px){
+  .pinkSquare{
+    display: none;
+  }
+  .greySquare{
+    display: none;
+  }
+  .photoCreatrice img{
+    top: 40px;
+    left: 0;
+  }
+  .bebeAlien img{
+    width: 300px;
+    height: auto;
   }
 }
+
 .line{
   height: 2px;
   background:rgba(0, 0, 0, 0.5);
