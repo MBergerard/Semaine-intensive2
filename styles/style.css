@@ -63,92 +63,39 @@ html{
     text-decoration: none;
     font-size: 1.8rem;
   }
+  /*Alexis*/
 
-  /****
-      main
-           ****/
-
-.greyBackground{
-  background-color: #fdf4f4;
-}
-
-.whiteBackground {
-  background-color: white;
+  .header__navigation__menu li:hover a {
+  color:pink;
+  transition: 0.25s ease;
+  padding:10px;
+  position:relative ;
+  z-index: 50000;
+  background:white;
 
 
-}
+      }
 
-.photoCreatrice {
-  position: absolute;
-  border: 1px solid #eb9bc1;
-  width: 40%;
-  margin-top: 110px;
-}
-.photoCreatrice img{
-  width : 100%;
-  position: relative;
-  top: 50px;
-  left: 30px;
-}
-.bebeAlien {
-  border: solid 1px #a18778;
-  width: 50%;
-  position: absolute
-}
-.bebeAlien img{
-  width: 100%;
-  position: relative;
-  top: 30px;
-  left: 60px;
-}
-@media all and (max-width: 1024px){
-  .photoCreatrice{
-      border:0;
+  .header__navigation__menu li a:hover{
+    color:blue;
+
   }
-}
-.line{
-  height: 2px;
-  background:rgba(0, 0, 0, 0.5);
-}
-.aPropos {
-  margin-top: 80px;
-  margin-left: 50px;
-  font-size: 1.8rem;
-  text-align: justify;
-  height: 50%;
-  position: relative;
+  .header__navigation__menu a{
+  display:block;
 
-}
-
-.sectionHistoire{
-  border-bottom: 1px solid #707070;
-  height: 600px;
-}
-.troisLogoRow{
-  text-align: center;
-}
-
-.troisLogoRow img {
-  width: 100px;
-  margin: 20px 75px;
+  }
 
 
-}
 
-.troisLogoRow .bigDiv{
-  margin:0 auto;
-}
+  .header__navigation__menu li ul{
+    position: absolute;
+    list-style: none;
+    padding:0;
 
-.meilleursVente {
-  padding: 50px 0;
-}
-.meilleursVente img{
-  border: 1px solid #707070;
-  width: 150px;
-}
 
-.borderTop{
-  border-top: 1px solid #707070;
-  margin-top: 200px;
-  text-align: center;
-}
+  }
+
+
+  /**/
+
+  
