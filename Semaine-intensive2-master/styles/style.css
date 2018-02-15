@@ -1,0 +1,135 @@
+html{
+  font-size: 62.5%;
+}
+
+
+/****
+    header
+         ****/
+
+.social a{
+  opacity: 0.7;
+}
+.social img{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+
+}
+.logo img {
+  width: 300px;
+}
+.recherche button{
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.recherche img{
+  width: 24px;
+  height: 24px;
+  margin-top: 16px;
+  margin-right: 20px;
+}
+.recherche input{
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.header__navigation__menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  border-top: 2px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+
+}
+.header__navigation__menu li a {
+    display: block;
+    padding: 16px;
+    color: pink;
+    text-decoration: none;
+    font-size: 1.6rem;
+  }
+
+  /****
+      main
+           ****/
+
+.greyBackground{
+  background-color: #fdf4f4;
+}
+
+.whiteBackground {
+  background-color: white;
+
+
+}
+
+.photoCreatrice {
+  margin-top: 200px;
+  border: 1px solid #eb9bc1;
+  width: 260px;
+
+}
+
+.photoCreatrice img{
+  width : 250px;
+  position: relative;
+  bottom: 100px;
+  left: 30px;
+}
+
+.aPropos {
+  margin-top: 80px;
+  margin-left: 50px;
+  font-size: 1.8rem;
+  text-align: justify;
+}
+
+.bebeAlien {
+  border: solid 1px #a18778;
+  width: 400px;
+  margin-top: 87px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.bebeAlien img{
+  width: 400px;
+  position: relative;
+  top: 30px;
+  left: 60px;
+}
+
+.sectionHistoire{
+  border-bottom: 1px solid #707070;
+  height: 600px;
+}
+.troisLogoRow{
+  text-align: center;
+
+}
+
+.troisLogoRow img {
+  width: 100px;
+  margin: 20px 75px;
+
+
+}
+
+.troisLogoRow .bigDiv{
+  margin:0 auto;
+}
+
+.meilleursVente {
+  padding: 50px 0;
+}
+.meilleursVente img{
+  border: 1px solid #707070;
+  width: 150px;
+}
+
+.borderTop{
+  border-top: 1px solid #707070;
+  margin-top: 200px;
+  text-align: center;
+}
