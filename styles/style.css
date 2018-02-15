@@ -2,7 +2,10 @@ html{
  font-size: 62.5%;
 }
 
-
+body{
+  font-family: "Quicksand";
+  font-weight: bold;
+}
 /****
    header
         ****/
@@ -220,24 +223,69 @@ footer{
   background: white;
 }
 .firstCol{
-  border: 2px black solid;
   padding-left: 60px;
 }
 .footer{
   width: 100%;
-  border: 2px black solid;
+
 }
 .contact{
-  margin-top: 60px;
-  border: 2px black solid;
+  margin-top: 50px;
+
+}
+.contact p {
+  font-size: 1.6rem;
+  padding-top: 6px;
 }
 .icones{
   width: 26px;
   height: 26px;
-  margin-right: 6px;
+  margin-right: 14px;
 }
 .sociaux{
   width: 36px;
   height: 36px;
-  margin-left: 6px;
+  margin-left: 16px;
+}
+.secondCol{
+}
+.links{
+  margin-top: 30px;
+}
+.links img{
+  width: 30px;
+  height: 30px;
+}
+.links span{
+  font-size: 2.4rem;
+  margin-left: 10px;
+  line-height: 2.4rem;
+}
+.links a{
+  display: block;
+  margin-top: 12px;
+  color: grey;
+  font-size: 1.8rem;
+}
+.links a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.news{
+  margin-top: 30px;
+}
+.news > img{
+  width: 34px;
+  height: 34px;
+  margin-top: -10px;
+}
+.news span{
+  font-size: 2.4rem;
+  margin-left: 10px;
+  line-height: 2.4rem;
+}
+.collection img{
+  width: 180px;
+  height: 180px;
 }
