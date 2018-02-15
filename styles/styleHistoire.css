@@ -1,0 +1,114 @@
+html{
+ font-size: 62.5%;
+}
+
+
+/****
+   header
+        ****/
+
+.social a{
+ opacity: 0.7;
+}
+
+.social img{
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  margin-right: 8px;
+
+}
+.logo img {
+  width: 300px;
+}
+.recherche button{
+  margin-right: 8px;
+  margin-top: 20px;
+}
+.recherche img{
+  width: 24px;
+  height: 24px;
+  margin-top: 24px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.recherche img:hover{
+  width: 26px;
+  height: 26px;
+  border: 1px solid pink;
+  border-radius: 4px;
+  margin-right: 19px;
+  margin-left: 19px;
+}
+
+.recherche input{
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/***
+      Nav
+            ***/
+.header__navigation__menu {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+.header__navigation__menu li a {
+    padding: 16px;
+    color: pink;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+/****
+      histoire
+               ****/
+.titre{
+  text-align: center;
+}
+
+.photoHistoire{
+  margin-top: 50px;
+}
+
+.photoHistoire .papillonDroite img , .photoHistoire .papillonGauche img{
+  width: 80px;
+}
+
+
+.creatriceEtBebeAlien img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: #707070 1px solid;
+
+}
+.papillonDroite img {
+  position: relative;
+  bottom: 80px;
+  opacity: 0.5;
+}
+.papillonGauche img {
+  position: relative;
+  top: 300px;
+  opacity: 0.5;
+  left: 90px;
+}
+
+.texte {
+  margin-top: 60px;
+  text-align: justify;
+  font-size: 1.7rem;
+}
+
+@media screen and (min-width: 800px){
+  .papillonGauche img{
+    left: 10px;
+    top: 500px;
+  }
+
+}

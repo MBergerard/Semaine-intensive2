@@ -1,0 +1,120 @@
+html{
+ font-size: 62.5%;
+}
+
+
+/****
+   header
+        ****/
+
+.social a{
+ opacity: 0.7;
+}
+
+.social img{
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  margin-right: 8px;
+
+}
+.logo img {
+  width: 300px;
+}
+.recherche button{
+  margin-right: 8px;
+  margin-top: 20px;
+}
+.recherche img{
+  width: 24px;
+  height: 24px;
+  margin-top: 24px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.recherche img:hover{
+  width: 26px;
+  height: 26px;
+  border: 1px solid pink;
+  border-radius: 4px;
+  margin-right: 19px;
+  margin-left: 19px;
+}
+
+.recherche input{
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/***
+      Nav
+            ***/
+.header__navigation__menu {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+.header__navigation__menu li a {
+    padding: 16px;
+    color: pink;
+    text-decoration: none;
+    font-size: 1.8rem;
+  }
+
+/***
+    fiche produits
+                ***/
+#photoPrincipale img {
+  width: 300px;
+
+}
+
+
+.barreDeTroisPhoto img {
+  width: 100px;
+  height: 100px;
+
+}
+
+.textProduit {
+
+  margin-top: 100px;
+  text-align: justify;
+}
+.textProduit p {
+  font-size: 1.6rem;
+}
+
+.textProduit h2 {
+  color: #98674b
+}
+
+#prix{
+  color: #cf006b;
+  font-size: 2.4rem;
+}
+
+
+
+.ajouterAuPanierButton p {
+  border: #a9a9a9 1px solid;
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.selectionQuantite {
+  margin-top:20px;
+  margin-left: 20px;
+}
+.selectionQuantite form input{
+  border: #727272 1px solid;
+  width: 50px;
+  margin-left: 20px;
+}
+.divAjoutAuPanier {
+  margin-top: 30px;
+}
