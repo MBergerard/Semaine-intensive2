@@ -79,38 +79,45 @@ html{
 }
 
 .photoCreatrice {
-  margin-top: 200px;
+  position: absolute;
   border: 1px solid #eb9bc1;
-  width: 260px;
-
+  width: 40%;
+  margin-top: 110px;
 }
-
 .photoCreatrice img{
-  width : 250px;
+  width : 100%;
   position: relative;
-  bottom: 100px;
+  top: 50px;
   left: 30px;
 }
-
+.bebeAlien {
+  border: solid 1px #a18778;
+  width: 50%;
+  position: absolute
+}
+.bebeAlien img{
+  width: 100%;
+  position: relative;
+  top: 30px;
+  left: 60px;
+}
+@media all and (max-width: 1024px){
+  .photoCreatrice{
+      border:0;
+  }
+}
+.line{
+  height: 2px;
+  background:rgba(0, 0, 0, 0.5);
+}
 .aPropos {
   margin-top: 80px;
   margin-left: 50px;
   font-size: 1.8rem;
   text-align: justify;
-}
-
-.bebeAlien {
-  border: solid 1px #a18778;
-  width: 400px;
-  margin-top: 87px;
-  margin-left: 100px;
-  margin-bottom: 50px;
-}
-.bebeAlien img{
-  width: 400px;
+  height: 50%;
   position: relative;
-  top: 30px;
-  left: 60px;
+
 }
 
 .sectionHistoire{
@@ -119,7 +126,6 @@ html{
 }
 .troisLogoRow{
   text-align: center;
-
 }
 
 .troisLogoRow img {
