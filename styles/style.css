@@ -22,7 +22,7 @@ html{
   width: 300px;
 }
 .recherche button{
-  margin-right: 20px;
+  margin-right: 8px;
   margin-top: 20px;
 }
 .recherche img{
@@ -77,78 +77,167 @@ html{
 
 
 }
-
-.photoCreatrice {
-  position: absolute;
-  border: 1px solid #eb9bc1;
-  width: 40%;
-  margin-top: 110px;
+.photoCreatrice{
+  width: 300px;
 }
-.photoCreatrice img{
-  width : 100%;
+.photoCreatrice img {
+  width: 300px;
+  height: 369.75px;
   position: relative;
-  top: 50px;
+  top: 70px;
   left: 30px;
 }
-.bebeAlien {
-  border: solid 1px #a18778;
-  width: 50%;
-  position: absolute
+.pinkSquare{
+  width: 300px;
+  height: 369.75px;
+  border: 2px solid pink;
+  position: absolute;
+  margin-top: 20px;
 }
-.bebeAlien img{
-  width: 100%;
+.bebeAlien{
   position: relative;
-  top: 30px;
-  left: 60px;
+  right: 40px;
+  top: 60px;
 }
-@media all and (max-width: 1024px){
-  .photoCreatrice{
-      border:0;
+.bebeAlien img {
+  width: 400px;
+  height: 180px;
+}
+.greySquare{
+  width: 400px;
+  height: 180px;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  position: absolute;
+  margin-top: 20px;
+}
+@media all and (max-width: 1200px){
+  .pinkSquare{
+    display: none;
+  }
+  .greySquare{
+    display: none;
+  }
+  .photoCreatrice img{
+    top: 40px;
+    left: 0;
+  }
+  .bebeAlien img{
+    width: 300px;
+    height: auto;
+  }
+  .bebeAlien{
+    top: 24px;
   }
 }
+
 .line{
   height: 2px;
   background:rgba(0, 0, 0, 0.5);
 }
 .aPropos {
-  margin-top: 80px;
   margin-left: 50px;
   font-size: 1.8rem;
   text-align: justify;
   height: 50%;
-  position: relative;
 
 }
-
+.blocHistoire{
+  border: 2px solid blue;
+}
 .sectionHistoire{
-  border-bottom: 1px solid #707070;
-  height: 600px;
-}
-.troisLogoRow{
-  text-align: center;
+  height: auto;
 }
 
 .troisLogoRow img {
   width: 100px;
-  margin: 20px 75px;
-
-
 }
-
+.troisLogoRow{
+  border-bottom: 1px solid rgba(206,139,170, 0.5);
+  border-top: 1px solid rgba(206,139,170, 0.5);
+  display: block;
+  width: 100%;
+  margin-top: 140px;
+}
 .troisLogoRow .bigDiv{
   margin:0 auto;
 }
 
 .meilleursVente {
-  padding: 50px 0;
+  width: 100%;
 }
 .meilleursVente img{
   border: 1px solid #707070;
-  width: 150px;
-}
+  width: 200px;
+  margin-top: 20px;
 
-.borderTop{
-  border-top: 1px solid #707070;
-  margin-top: 200px;
-  text-align: center;
+}
+.thumbnail{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background: #fdf4f4;
+  border: none;
+}
+.thumbnail div{
+  position: absolute;
+  bottom: -100px;
+  opacity: 0;
+  left: 2;
+  width: 96%;
+  height: auto%;
+  background: rgba(255, 255, 255, 0.75);
+  transition: all 0.5s ease-in;
+}
+.thumbnail:hover div{
+  bottom: 4px;
+  opacity: 1;
+}
+.thumbnail .hover p{
+  margin-top: 8px;
+  margin-left: 6px;
+}
+.thumbnail .hover img{
+  width: 24px;
+  height: 24px;
+  border: none;
+  margin-top: 0;
+  margin-left: 10px;
+}
+.thumbnail a{
+  text-decoration: none;
+  color: black;
+}
+.thumbnail a:hover{
+  text-decoration: none;
+}
+/***
+      footer
+              ***/
+
+footer{
+  width: 100%;
+  height: 400px;
+  background: white;
+}
+.firstCol{
+  border: 2px black solid;
+  padding-left: 60px;
+}
+.footer{
+  width: 100%;
+  border: 2px black solid;
+}
+.contact{
+  margin-top: 60px;
+  border: 2px black solid;
+}
+.icones{
+  width: 26px;
+  height: 26px;
+  margin-right: 6px;
+}
+.sociaux{
+  width: 36px;
+  height: 36px;
+  margin-left: 6px;
 }
