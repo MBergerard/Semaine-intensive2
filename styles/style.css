@@ -48,6 +48,10 @@ body{
   border-radius: 10px;
   margin-top: 20px;
 }
+button{
+  background: rgb(206, 139, 170);
+  color: white;
+}
 
 /***
       Nav
@@ -62,7 +66,7 @@ body{
 }
 .header__navigation__menu li a {
     padding: 16px;
-    color: pink;
+    color: rgb(206, 139, 170);
     text-decoration: none;
     font-size: 1.8rem;
   }
@@ -132,7 +136,9 @@ body{
     top: 24px;
   }
 }
-
+h1, h2{
+  color: rgb(226,82,219);
+}
 .line{
   height: 2px;
   background:rgba(0, 0, 0, 0.5);
@@ -142,7 +148,14 @@ body{
   font-size: 1.8rem;
   text-align: justify;
   height: 50%;
-
+}
+.aPropos a{
+  text-decoration: none;
+  color: rgb(226,100,219);
+}
+.aPropos a:hover{
+  text-decoration: none;
+  color: black;
 }
 .blocHistoire{
   border: 2px solid blue;
@@ -164,7 +177,9 @@ body{
 .troisLogoRow .bigDiv{
   margin:0 auto;
 }
-
+.france img{
+  margin-left: 16px;
+}
 .meilleursVente {
   width: 100%;
 }
@@ -219,19 +234,19 @@ body{
 
 footer{
   width: 100%;
-  height: 400px;
+  height: 300px;
   background: white;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
 }
 .firstCol{
   padding-left: 60px;
 }
 .footer{
   width: 100%;
-
 }
 .contact{
-  margin-top: 50px;
-
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .contact p {
   font-size: 1.6rem;
@@ -247,10 +262,8 @@ footer{
   height: 36px;
   margin-left: 16px;
 }
-.secondCol{
-}
 .links{
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .links img{
   width: 30px;
@@ -288,4 +301,23 @@ footer{
 .collection img{
   width: 180px;
   height: 180px;
+}
+@media all and (max-width:1024px) {
+  .collection img{
+    width: 100px;
+    height: 100px;
+  }
+}
+.rightsReserved{
+  height: auto;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  width: 100%;
+  padding-top: 6px;
+}
+.rightsReserved span, p{
+  font-size: 1.6rem;
+}
+.rightsReserved p{
+  margin-left: 10px;
 }
