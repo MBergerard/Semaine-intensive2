@@ -119,12 +119,17 @@ div .textHistoire {
 }
 
 
-.creatriceEtBebeAlien img {
+.creatriceEtBebeAlien img:first-child {
+  width: 100px;
+  height: 120px;
+  border-radius: 50px;
+  border: #707070 1px solid;
+}
+.creatriceEtBebeAlien img:nth-child(2) {
   width: 100px;
   height: 100px;
   border-radius: 50px;
   border: #707070 1px solid;
-
 }
 .papillonDroite img {
   position: relative;

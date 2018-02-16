@@ -71,8 +71,8 @@ button{
     font-size: 1.8rem;
   }
 .header__navigation__menu li:hover a {
-   color:rgb(206, 139, 170);
-   transition: 0.20s ease;
+   color:pink;
+   transition: 0.25s ease;
    padding:10px;
    position:relative ;
    z-index: 2;
@@ -138,6 +138,9 @@ color:rgb(98,138,224);
   position: absolute;
   margin-top: 20px;
 }
+.caché{
+  display: none;
+}
 @media all and (max-width: 1200px){
   .pinkSquare{
     display: none;
@@ -147,14 +150,18 @@ color:rgb(98,138,224);
   }
   .photoCreatrice img{
     top: 40px;
-    left: 0;
-  }
-  .bebeAlien img{
-    width: 300px;
-    height: auto;
+    left: 180px;
+    border-radius: 100%;
   }
   .bebeAlien{
-    top: 24px;
+    display: none;
+  }
+  .aPropos{
+    display: none;
+  }
+  .aPropos2{
+    display: block;
+    margin-top: 20px;
   }
 }
 h1, h2{
@@ -175,6 +182,20 @@ h1, h2{
   color: rgb(226,100,219);
 }
 .aPropos a:hover{
+  text-decoration: none;
+  color: black;
+}
+.aPropos2 {
+  margin-left: 50px;
+  font-size: 1.8rem;
+  text-align: justify;
+  height: 50%;
+}
+.aPropos2 a{
+  text-decoration: none;
+  color: rgb(226,100,219);
+}
+.aPropos2 a:hover{
   text-decoration: none;
   color: black;
 }
