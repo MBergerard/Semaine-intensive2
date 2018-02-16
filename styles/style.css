@@ -71,15 +71,15 @@ button{
     font-size: 1.8rem;
   }
 .header__navigation__menu li:hover a {
-   color:pink;
-   transition: 0.25s ease;
+   color:rgb(206, 139, 170);
+   transition: 0.20s ease;
    padding:10px;
    position:relative ;
    z-index: 2;
    background:white;
  }
 .header__navigation__menu li a:hover{
-     color:rgb(98,138,224);
+color:rgb(98,138,224);
  }
 .header__navigation__menu a{
  display:block;
