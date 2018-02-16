@@ -49,7 +49,7 @@ body{
   margin-top: 20px;
 }
 button{
-  background: rgb(206, 139, 170);
+  background: rgba(98,138,224,0.6);
   color: white;
 }
 
@@ -59,7 +59,7 @@ button{
 .header__navigation__menu {
   list-style: none;
   margin: 0;
-  padding: 20px;
+  padding: 10px;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 
@@ -70,7 +70,35 @@ button{
     text-decoration: none;
     font-size: 1.8rem;
   }
+  .header__navigation__menu li:hover a {
+   color:pink;
+   transition: 0.25s ease;
+   padding:10px;
+   position:relative ;
+   z-index: 50000;
+   background:white;
 
+
+       }
+
+   .header__navigation__menu li a:hover{
+     color:rgb(98,138,224);
+
+   }
+   .header__navigation__menu a{
+   display:block;
+
+   }
+
+
+
+   .header__navigation__menu li ul{
+     position: absolute;
+     list-style: none;
+     padding:0;
+
+
+   }
   /****
       main
            ****/
@@ -156,9 +184,6 @@ h1, h2{
 .aPropos a:hover{
   text-decoration: none;
   color: black;
-}
-.blocHistoire{
-  border: 2px solid blue;
 }
 .sectionHistoire{
   height: auto;
