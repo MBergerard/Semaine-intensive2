@@ -48,51 +48,52 @@ body{
   border-radius: 10px;
   margin-top: 20px;
 }
+button{
+  background: rgba(98,138,224,0.6);
+  color: white;
+}
 
 /***
       Nav
             ***/
             .header__navigation__menu {
               list-style: none;
-              margin: 0;
               padding: 10px;
               border-top: 1px solid rgba(0, 0, 0, 0.2);
               border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 
             }
-            .header__navigation__menu li a {
-                padding: 16px;
-                color: rgb(206, 139, 170);
-                text-decoration: none;
-                font-size: 1.8rem;
-              }
-            .header__navigation__menu li:hover a {
-               color:rgb(206, 139, 170);
-               transition: 0.20s ease;
-               padding:10px;
-               position:relative ;
-               z-index: 2;
-               background:white;
-             }
-            .header__navigation__menu li a:hover{
-            color:rgb(98,138,224);
-             }
-            .header__navigation__menu a{
-             display:block;
-
-             }
-            .header__navigation__menu li ul{
-                 position: absolute;
-                 list-style: none;
-                 padding:0;
-
-
+            .header__navigation__menu ul li{
+              position: relative;
+              list-style: none;
+              background: white;
             }
-            button{
-              background: rgba(98,138,224,0.6);
-              color: white;
+            .header__navigation__menu ul li a {
+              display: block;
+              padding: 16px;
+              color: rgb(206, 80, 170);
+              text-decoration: none;
+              transition: all 0.25s ease-in;
+              font-size: 1.8rem;
+              will-change: auto;
             }
 
+            .header__navigation__menu ul li a:hover {
+              color:rgb(98,138,224);
+              transition: all 0.35s ease-in;
+             }
+            .header__navigation__menu ul li ul{
+              display: none;
+              position: absolute;
+              top: 100%;
+              left: 0;
+              width: 200px;
+              padding:0;
+            }
+            .header__navigation__menu ul li:hover ul{
+              display: block;
+              z-index: 2;
+            }
 /****
       histoire
                ****/
