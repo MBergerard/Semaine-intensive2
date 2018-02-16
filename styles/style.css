@@ -70,35 +70,28 @@ button{
     text-decoration: none;
     font-size: 1.8rem;
   }
-  .header__navigation__menu li:hover a {
+.header__navigation__menu li:hover a {
    color:pink;
    transition: 0.25s ease;
    padding:10px;
    position:relative ;
-   z-index: 50000;
+   z-index: 2;
    background:white;
-
-
-       }
-
-   .header__navigation__menu li a:hover{
+ }
+.header__navigation__menu li a:hover{
      color:rgb(98,138,224);
+ }
+.header__navigation__menu a{
+ display:block;
 
-   }
-   .header__navigation__menu a{
-   display:block;
-
-   }
-
-
-
-   .header__navigation__menu li ul{
+ }
+.header__navigation__menu li ul{
      position: absolute;
      list-style: none;
      padding:0;
 
 
-   }
+}
   /****
       main
            ****/
